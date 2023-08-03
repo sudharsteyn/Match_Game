@@ -1,0 +1,119 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-result-container {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-img {
+  height: 180px;
+  width: 280px;
+  border-radius: 6px;
+}
+
+.tabs-list {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+
+.thumb-img-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-img {
+    height: 280px;
+    width: 520px;
+  }
+  .thumb-img-list {
+    width: 600px;
+  }
+}
+
+.result-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 310px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trophy-img {
+  height: 180px;
+  width: 180px;
+  margin-top: auto;
+}
+
+.your-score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.result-score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.play-again-btn {
+  background-color: #cf60c8;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    height: 580px;
+    width: 600px;
+  }
+  .trophy-img {
+    height: 200px;
+    width: 280px;
+  }
+}
